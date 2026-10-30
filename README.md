@@ -52,7 +52,9 @@ App
 
 ## 安装
 
-1. 下载 [`release/AdClean-1.1.apk`](release/AdClean-1.1.apk) 并安装（装完没有桌面图标，正常）
+1. 下载 APK 并安装（装完没有桌面图标，正常）
+   - 方式一：[**Releases 页面**](../../releases/latest)（推荐）
+   - 方式二：仓库内 [`release/AdClean-1.1.apk`](release/AdClean-1.1.apk)
 2. 打开 **LSPosed 管理器** → 「模块」
 3. 找到 **AdClean (动漫共和国)** → 打开「启用模块」
 4. 应用列表里搜索 `shizi`，勾选 **`com.shizi.tool.p3`**
