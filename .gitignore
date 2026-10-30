@@ -1,0 +1,13 @@
+# 构建产物
+build/
+dist/
+*.apk
+
+# 构建依赖 / 本地文件
+framework-res.apk
+debug.keystore
+*.keystore
+
+# 系统垃圾
+.DS_Store
+Thumbs.db

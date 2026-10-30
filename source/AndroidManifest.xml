@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="to.kosaki.adclean"
+    android:versionCode="2"
+    android:versionName="1.1">
+
+    <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="33" />
+
+    <application
+        android:label="AdClean (动漫共和国)"
+        android:hasCode="true">
+
+        <meta-data android:name="xposedmodule" android:value="true" />
+        <meta-data android:name="xposeddescription" android:value="仅对 com.shizi.tool.p3 生效：拦截广告 SDK 的域名解析" />
+        <meta-data android:name="xposedminversion" android:value="93" />
+    </application>
+</manifest>
