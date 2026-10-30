@@ -115,7 +115,7 @@ export FRAMEWORK=framework-res.apk
 
 模块只做一件事：在目标 App 进程内给一个方法加 hook。
 
-> 注意：本模块只解决「广告」，不改变目标 App 自身的隐私行为。该 App 内嵌 Bugly、TalkingData 等埋点，介意请勿长期使用。
+> 注意：本模块只解决「广告」，不改变目标 App 自身的隐私行为。
 
 ## 免责声明
 
