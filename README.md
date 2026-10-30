@@ -52,7 +52,7 @@ App
 
 ## 安装
 
-1. 从 [Releases](../../releases) 下载 `AdClean-x.y.apk` 并安装（装完没有桌面图标，正常）
+1. 下载 [`release/AdClean-1.1.apk`](release/AdClean-1.1.apk) 并安装（装完没有桌面图标，正常）
 2. 打开 **LSPosed 管理器** → 「模块」
 3. 找到 **AdClean (动漫共和国)** → 打开「启用模块」
 4. 应用列表里搜索 `shizi`，勾选 **`com.shizi.tool.p3`**
@@ -90,7 +90,7 @@ LSPosed 日志里应出现：
 # 产物：dist/AdClean.apk
 ```
 
-> 注意：APK 签名包含时间戳，**自行构建的产物 SHA-256 与 Release 里的不同属正常现象**，行为一致即可。Release 页面列出的哈希对应官方发布的那个文件。
+> 注意：APK 签名包含时间戳，**自行构建的产物 SHA-256 与仓库内 `release/` 下的文件不同属正常现象**，行为一致即可。
 
 脚本会校验最小可行流程，需要 `JAVA_HOME` 可用。首次构建请先准备一个 framework 资源文件：
 
